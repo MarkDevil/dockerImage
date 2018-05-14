@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+  
+  rancher-server:
+    image: rancher/server
+    container_name: rancher-server
+    hostname: rancher-server
+    restart: always
+    network_mode: "bridge"
+    environment:
+      - JAVA_OPTS=-Duser.timezone=Asia/Shanghai
+    ports:
+      - 8999:8080
+    mem_limit: 2g
+    

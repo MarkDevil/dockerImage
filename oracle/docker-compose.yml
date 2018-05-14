@@ -1,0 +1,15 @@
+version: '2'
+# 系统账号：system
+# 密码：oracle
+services:
+  oracle:
+    image: sath89/oracle-xe-11g
+    container_name: myoracle
+    # restart: always
+    ports:
+      - "1521:1521"
+      - "2222:22"
+    environment:
+      - ORACLE_ALLOW_REMOTE=true
+    volumes:
+      - ./data:/u01/app/oracle

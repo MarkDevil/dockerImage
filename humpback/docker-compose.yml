@@ -1,0 +1,13 @@
+version: '2'
+services:
+ humpback-web:
+   image: humpbacks/humpback-web:1.3.0
+   container_name: humpback-web
+   restart: always
+   environment:
+     - HUMPBACK_LISTEN_PORT=8012
+   ports:
+     - 8012:8012
+   volumes:
+     - /Users/mark/dockerMapPath/humpback-web/dbFiles:/humpback-web/dbFiles
+  

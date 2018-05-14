@@ -1,0 +1,14 @@
+# agent
+splunkuniversalforwarder:
+  image: splunk/universalforwarder
+  hostname: splunkuniversalforwarder
+  environment:
+     SPLUNK_START_ARGS: --accept-license --answer-yes
+     SPLUNK_FORWARD_SERVER: splunkenterprise:9997
+     SPLUNK_USER: root
+  restart: always
+  volumes:
+    - /Users/mark/dockerMapPath/splunk/forwarder/etc:/opt/splunk/etc
+    - /Users/mark/dockerMapPath/splunk/forwarder/var:/opt/splunk/var
+    - /var/lib/docker/containers:/host/containers:ro
+    - /var/run/docker.sock:/var/run/docker.sock:ro

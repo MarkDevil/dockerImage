@@ -1,0 +1,33 @@
+# elk日志平台配置，部署
+version: '2'
+services:
+    myelastic:
+      image: elasticsearch:5.5
+      container_name: myelastic5
+      hostname: myelasticsearch
+      ports:
+        - "9200:9200"
+        - "9300:9300"
+      volumes:
+        - /Users/mark/dockerImage/elk/es/config:/usr/share/elasticsearch/config
+        - /Users/mark/dockerImage/elk/es/data:/usr/share/elasticsearch/data
+      environment:
+        ES_JAVA_OPTS: "-Xmx1024m -Xms256m"
+      restart: always
+      networks: 
+        - elk
+    
+    mykibana:
+      image: kibana:5.5
+      container_name: mykibana5
+      ports:
+        - "5601:5601"
+      links:
+        - myelastic:myelastic
+      restart: always
+      networks: 
+        - elk
+    
+networks:
+  elk:
+    driver: bridge

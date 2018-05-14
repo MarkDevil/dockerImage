@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+ tomcat8:
+   image: mccoder/tomcat:8.5-jre8
+   container_name: tomcat8
+   # restart: always
+   network_mode: "bridge"
+   environment:
+     - JAVA_OPTS=-Duser.timezone=Asia/Shanghai
+   ports:
+     - 8111:8080
+   volumes:
+     - /Users/mark/dockerMapPath/tomcat:/usr/local/tomcat/webapps
+   

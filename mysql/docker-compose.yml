@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+ mysql:
+   image: mysql:5.6.35
+   container_name: mysql-server56
+   # restart: always
+   network_mode: "bridge"
+   environment:
+     - MYSQL_ROOT_PASSWORD=root
+     - JAVA_OPTS=-Duser.timezone=Asia/Shanghai
+   ports:
+     - 3307:3306
+   volumes:
+     - /Users/mark/dockerMapPath/mysql:/var/lib/mysql
