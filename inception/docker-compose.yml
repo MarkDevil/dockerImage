@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  centos_inception:
+    image: centos_inception:v1
+    container_name: centos_inception
+    # volumes:
+    #   - ./opt:/opt
+    restart: always
+    ports:
+      - "6669:6669"
