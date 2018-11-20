@@ -5,8 +5,6 @@ services:
   centos_inception:
     image: centos_inception:v1
     container_name: centos_inception
-    # volumes:
-    #   - /Users/bitmain/githubWorkspace/Yearning/install/opt/inc.cnf:/opt/inception/bin/inc.cnf
     restart: always
     ports:
       - "6669:6669"
