@@ -1,0 +1,26 @@
+version: '2'
+# 基础服务
+services:  
+  ngrinder-controller:
+    image: ngrinder/controller:3.4
+    container_name: ngrinder-controller
+    network_mode: "bridge"
+    restart: always
+    ports:
+      - "9090:80"
+      - "16001:16001"
+      - "12000-12009:12000-12009"
+    # volumes:
+    #   - /Users/mark/dockerMapPath/nginx/conf/nginx.conf:/etc/nginx/nginx.conf
+    #   - /Users/mark/dockerMapPath/nginx/www:/usr/share/nginx/html
+    mem_limit: 512m
+
+  ngrinder-agent:
+    image: ngrinder/agent
+    container_name: ngrinder-agent
+    network_mode: "bridge"
+    restart: always
+    command:
+      - 192.168.2.163:9090
+    mem_limit: 256m
+  
