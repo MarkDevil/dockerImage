@@ -1,0 +1,120 @@
+2019-03-05 22:57:21 INFO main - Server is running in TLS permissive mode
+2019-03-05 22:57:21 INFO main - Tls config file doesn't exist, skip it
+2019-03-05 22:57:21 INFO main - Log the final used tls related configuration
+2019-03-05 22:57:21 INFO main - tls.test.mode.enable = true
+2019-03-05 22:57:21 INFO main - tls.server.need.client.auth = none
+2019-03-05 22:57:21 INFO main - tls.server.keyPath = null
+2019-03-05 22:57:21 INFO main - tls.server.keyPassword = null
+2019-03-05 22:57:21 INFO main - tls.server.certPath = null
+2019-03-05 22:57:21 INFO main - tls.server.authClient = false
+2019-03-05 22:57:21 INFO main - tls.server.trustCertPath = null
+2019-03-05 22:57:21 INFO main - tls.client.keyPath = null
+2019-03-05 22:57:21 INFO main - tls.client.keyPassword = null
+2019-03-05 22:57:21 INFO main - tls.client.certPath = null
+2019-03-05 22:57:21 INFO main - tls.client.authServer = false
+2019-03-05 22:57:21 INFO main - tls.client.trustCertPath = null
+2019-03-05 22:57:22 INFO main - Using OpenSSL provider
+2019-03-05 22:57:22 INFO main - SSLContext created for server
+2019-03-05 22:57:22 INFO main - Server is running in TLS permissive mode
+2019-03-05 22:57:22 INFO main - Tls config file doesn't exist, skip it
+2019-03-05 22:57:22 INFO main - Log the final used tls related configuration
+2019-03-05 22:57:22 INFO main - tls.test.mode.enable = true
+2019-03-05 22:57:22 INFO main - tls.server.need.client.auth = none
+2019-03-05 22:57:22 INFO main - tls.server.keyPath = null
+2019-03-05 22:57:22 INFO main - tls.server.keyPassword = null
+2019-03-05 22:57:22 INFO main - tls.server.certPath = null
+2019-03-05 22:57:22 INFO main - tls.server.authClient = false
+2019-03-05 22:57:22 INFO main - tls.server.trustCertPath = null
+2019-03-05 22:57:22 INFO main - tls.client.keyPath = null
+2019-03-05 22:57:22 INFO main - tls.client.keyPassword = null
+2019-03-05 22:57:22 INFO main - tls.client.certPath = null
+2019-03-05 22:57:22 INFO main - tls.client.authServer = false
+2019-03-05 22:57:22 INFO main - tls.client.trustCertPath = null
+2019-03-05 22:57:22 INFO main - Using OpenSSL provider
+2019-03-05 22:57:22 INFO main - SSLContext created for server
+2019-03-05 22:57:22 INFO main - name server address updated. NEW : [namesrv:9876] , OLD: null
+2019-03-05 22:57:22 INFO NettyEventExecutor - NettyEventExecutor service started
+2019-03-05 22:57:22 INFO NettyEventExecutor - NettyEventExecutor service started
+2019-03-05 22:57:23 INFO brokerOutApi_thread_1 - createChannel: begin to connect remote host[namesrv:9876] asynchronously
+2019-03-05 22:57:23 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => amesrv/172.18.0.2:9876
+2019-03-05 22:57:23 INFO brokerOutApi_thread_1 - createChannel: connect remote host[namesrv:9876] success, DefaultChannelPromise@3b3592a4(success)
+2019-03-05 23:35:39 INFO main - Server is running in TLS permissive mode
+2019-03-05 23:35:39 INFO main - Tls config file doesn't exist, skip it
+2019-03-05 23:35:39 INFO main - Log the final used tls related configuration
+2019-03-05 23:35:39 INFO main - tls.test.mode.enable = true
+2019-03-05 23:35:39 INFO main - tls.server.need.client.auth = none
+2019-03-05 23:35:39 INFO main - tls.server.keyPath = null
+2019-03-05 23:35:39 INFO main - tls.server.keyPassword = null
+2019-03-05 23:35:39 INFO main - tls.server.certPath = null
+2019-03-05 23:35:39 INFO main - tls.server.authClient = false
+2019-03-05 23:35:39 INFO main - tls.server.trustCertPath = null
+2019-03-05 23:35:39 INFO main - tls.client.keyPath = null
+2019-03-05 23:35:39 INFO main - tls.client.keyPassword = null
+2019-03-05 23:35:39 INFO main - tls.client.certPath = null
+2019-03-05 23:35:39 INFO main - tls.client.authServer = false
+2019-03-05 23:35:39 INFO main - tls.client.trustCertPath = null
+2019-03-05 23:35:39 INFO main - Using OpenSSL provider
+2019-03-05 23:35:40 INFO main - SSLContext created for server
+2019-03-05 23:35:40 INFO main - Server is running in TLS permissive mode
+2019-03-05 23:35:40 INFO main - Tls config file doesn't exist, skip it
+2019-03-05 23:35:40 INFO main - Log the final used tls related configuration
+2019-03-05 23:35:40 INFO main - tls.test.mode.enable = true
+2019-03-05 23:35:40 INFO main - tls.server.need.client.auth = none
+2019-03-05 23:35:40 INFO main - tls.server.keyPath = null
+2019-03-05 23:35:40 INFO main - tls.server.keyPassword = null
+2019-03-05 23:35:40 INFO main - tls.server.certPath = null
+2019-03-05 23:35:40 INFO main - tls.server.authClient = false
+2019-03-05 23:35:40 INFO main - tls.server.trustCertPath = null
+2019-03-05 23:35:40 INFO main - tls.client.keyPath = null
+2019-03-05 23:35:40 INFO main - tls.client.keyPassword = null
+2019-03-05 23:35:40 INFO main - tls.client.certPath = null
+2019-03-05 23:35:40 INFO main - tls.client.authServer = false
+2019-03-05 23:35:40 INFO main - tls.client.trustCertPath = null
+2019-03-05 23:35:40 INFO main - Using OpenSSL provider
+2019-03-05 23:35:40 INFO main - SSLContext created for server
+2019-03-05 23:35:40 INFO main - name server address updated. NEW : [namesrv:9876] , OLD: null
+2019-03-05 23:35:40 INFO NettyEventExecutor - NettyEventExecutor service started
+2019-03-05 23:35:40 INFO NettyEventExecutor - NettyEventExecutor service started
+2019-03-05 23:35:40 INFO brokerOutApi_thread_1 - createChannel: begin to connect remote host[namesrv:9876] asynchronously
+2019-03-05 23:35:40 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => amesrv/172.18.0.2:9876
+2019-03-05 23:35:40 INFO brokerOutApi_thread_1 - createChannel: connect remote host[namesrv:9876] success, DefaultChannelPromise@250d325e(success)
+2019-03-05 23:40:54 INFO main - Server is running in TLS permissive mode
+2019-03-05 23:40:54 INFO main - Tls config file doesn't exist, skip it
+2019-03-05 23:40:54 INFO main - Log the final used tls related configuration
+2019-03-05 23:40:54 INFO main - tls.test.mode.enable = true
+2019-03-05 23:40:54 INFO main - tls.server.need.client.auth = none
+2019-03-05 23:40:54 INFO main - tls.server.keyPath = null
+2019-03-05 23:40:54 INFO main - tls.server.keyPassword = null
+2019-03-05 23:40:54 INFO main - tls.server.certPath = null
+2019-03-05 23:40:54 INFO main - tls.server.authClient = false
+2019-03-05 23:40:54 INFO main - tls.server.trustCertPath = null
+2019-03-05 23:40:54 INFO main - tls.client.keyPath = null
+2019-03-05 23:40:54 INFO main - tls.client.keyPassword = null
+2019-03-05 23:40:54 INFO main - tls.client.certPath = null
+2019-03-05 23:40:54 INFO main - tls.client.authServer = false
+2019-03-05 23:40:54 INFO main - tls.client.trustCertPath = null
+2019-03-05 23:40:54 INFO main - Using OpenSSL provider
+2019-03-05 23:40:54 INFO main - SSLContext created for server
+2019-03-05 23:40:54 INFO main - Server is running in TLS permissive mode
+2019-03-05 23:40:54 INFO main - Tls config file doesn't exist, skip it
+2019-03-05 23:40:54 INFO main - Log the final used tls related configuration
+2019-03-05 23:40:54 INFO main - tls.test.mode.enable = true
+2019-03-05 23:40:54 INFO main - tls.server.need.client.auth = none
+2019-03-05 23:40:54 INFO main - tls.server.keyPath = null
+2019-03-05 23:40:54 INFO main - tls.server.keyPassword = null
+2019-03-05 23:40:54 INFO main - tls.server.certPath = null
+2019-03-05 23:40:54 INFO main - tls.server.authClient = false
+2019-03-05 23:40:54 INFO main - tls.server.trustCertPath = null
+2019-03-05 23:40:54 INFO main - tls.client.keyPath = null
+2019-03-05 23:40:54 INFO main - tls.client.keyPassword = null
+2019-03-05 23:40:54 INFO main - tls.client.certPath = null
+2019-03-05 23:40:54 INFO main - tls.client.authServer = false
+2019-03-05 23:40:54 INFO main - tls.client.trustCertPath = null
+2019-03-05 23:40:54 INFO main - Using OpenSSL provider
+2019-03-05 23:40:55 INFO main - SSLContext created for server
+2019-03-05 23:40:55 INFO main - name server address updated. NEW : [namesrv:9876] , OLD: null
+2019-03-05 23:40:55 INFO NettyEventExecutor - NettyEventExecutor service started
+2019-03-05 23:40:55 INFO NettyEventExecutor - NettyEventExecutor service started
+2019-03-05 23:40:55 INFO brokerOutApi_thread_1 - createChannel: begin to connect remote host[namesrv:9876] asynchronously
+2019-03-05 23:40:55 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => amesrv/172.19.0.2:9876
+2019-03-05 23:40:55 INFO brokerOutApi_thread_1 - createChannel: connect remote host[namesrv:9876] success, DefaultChannelPromise@521a2812(success)

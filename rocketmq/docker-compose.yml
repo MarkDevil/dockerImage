@@ -18,6 +18,6 @@ services:
     volumes:
       - ./data/broker/logs:/root/logs
       - ./data/broker/store:/root/store
-    command: sh mqbroker -n namesrv:9876
+    command: sh mqbroker -n namesrv:9876 autoCreateTopicEnable=true
     depends_on:
       - namesrv

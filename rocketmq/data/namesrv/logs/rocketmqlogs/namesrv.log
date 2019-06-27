@@ -1,0 +1,199 @@
+2019-03-05 22:57:18 INFO main - rocketmqHome=/opt/rocketmq-4.4.0
+2019-03-05 22:57:18 INFO main - kvConfigPath=/root/namesrv/kvConfig.json
+2019-03-05 22:57:18 INFO main - configStorePath=/root/namesrv/namesrv.properties
+2019-03-05 22:57:18 INFO main - productEnvName=center
+2019-03-05 22:57:18 INFO main - clusterTest=false
+2019-03-05 22:57:18 INFO main - orderMessageEnable=false
+2019-03-05 22:57:18 INFO main - listenPort=9876
+2019-03-05 22:57:18 INFO main - serverWorkerThreads=8
+2019-03-05 22:57:18 INFO main - serverCallbackExecutorThreads=0
+2019-03-05 22:57:18 INFO main - serverSelectorThreads=3
+2019-03-05 22:57:18 INFO main - serverOnewaySemaphoreValue=256
+2019-03-05 22:57:18 INFO main - serverAsyncSemaphoreValue=64
+2019-03-05 22:57:18 INFO main - serverChannelMaxIdleTimeSeconds=120
+2019-03-05 22:57:18 INFO main - serverSocketSndBufSize=65535
+2019-03-05 22:57:18 INFO main - serverSocketRcvBufSize=65535
+2019-03-05 22:57:18 INFO main - serverPooledByteBufAllocatorEnable=true
+2019-03-05 22:57:18 INFO main - useEpollNativeSelector=false
+2019-03-05 22:57:19 INFO main - Server is running in TLS permissive mode
+2019-03-05 22:57:19 INFO main - Tls config file doesn't exist, skip it
+2019-03-05 22:57:19 INFO main - Log the final used tls related configuration
+2019-03-05 22:57:19 INFO main - tls.test.mode.enable = true
+2019-03-05 22:57:19 INFO main - tls.server.need.client.auth = none
+2019-03-05 22:57:19 INFO main - tls.server.keyPath = null
+2019-03-05 22:57:19 INFO main - tls.server.keyPassword = null
+2019-03-05 22:57:19 INFO main - tls.server.certPath = null
+2019-03-05 22:57:19 INFO main - tls.server.authClient = false
+2019-03-05 22:57:19 INFO main - tls.server.trustCertPath = null
+2019-03-05 22:57:19 INFO main - tls.client.keyPath = null
+2019-03-05 22:57:19 INFO main - tls.client.keyPassword = null
+2019-03-05 22:57:19 INFO main - tls.client.certPath = null
+2019-03-05 22:57:19 INFO main - tls.client.authServer = false
+2019-03-05 22:57:19 INFO main - tls.client.trustCertPath = null
+2019-03-05 22:57:20 INFO main - Using OpenSSL provider
+2019-03-05 22:57:21 INFO main - SSLContext created for server
+2019-03-05 22:57:21 INFO NettyEventExecutor - NettyEventExecutor service started
+2019-03-05 22:57:21 INFO FileWatchService - FileWatchService service started
+2019-03-05 22:57:21 INFO main - The Name Server boot success. serializeType=JSON
+2019-03-05 22:57:23 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.18.0.3:48102
+2019-03-05 22:57:23 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.18.0.3:48102]
+2019-03-05 22:57:23 INFO RemotingExecutorThread_1 - new topic registered, BenchmarkTest QueueData [brokerName=e46b0b9bebe4, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2019-03-05 22:57:23 INFO RemotingExecutorThread_1 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=e46b0b9bebe4, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2019-03-05 22:57:23 INFO RemotingExecutorThread_1 - new topic registered, TBW102 QueueData [brokerName=e46b0b9bebe4, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2019-03-05 22:57:23 INFO RemotingExecutorThread_1 - new topic registered, e46b0b9bebe4 QueueData [brokerName=e46b0b9bebe4, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2019-03-05 22:57:23 INFO RemotingExecutorThread_1 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=e46b0b9bebe4, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2019-03-05 22:57:23 INFO RemotingExecutorThread_1 - new topic registered, DefaultCluster QueueData [brokerName=e46b0b9bebe4, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2019-03-05 22:57:23 INFO RemotingExecutorThread_1 - new broker registered, 172.18.0.3:10911 HAServer: 172.18.0.3:10912
+2019-03-05 22:58:21 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-03-05 22:58:21 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-03-05 22:58:23 INFO RemotingExecutorThread_4 - new topic registered, RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=e46b0b9bebe4, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2019-03-05 23:08:20 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-03-05 23:08:20 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-03-05 23:18:20 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-03-05 23:18:20 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-03-05 23:25:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.18.0.1:35282
+2019-03-05 23:25:30 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.18.0.1:35282]
+2019-03-05 23:26:31 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.18.0.1:35282]
+2019-03-05 23:26:31 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.18.0.1:35282]
+2019-03-05 23:26:37 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.18.0.1:35352
+2019-03-05 23:26:37 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.18.0.1:35352]
+2019-03-05 23:26:50 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.18.0.1:35370
+2019-03-05 23:26:50 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.18.0.1:35370]
+2019-03-05 23:28:12 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.18.0.1:35352]
+2019-03-05 23:28:12 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.18.0.1:35352]
+2019-03-05 23:28:19 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-03-05 23:28:19 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-03-05 23:28:20 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.18.0.1:35462
+2019-03-05 23:28:20 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.18.0.1:35462]
+2019-03-05 23:35:37 INFO main - rocketmqHome=/opt/rocketmq-4.4.0
+2019-03-05 23:35:37 INFO main - kvConfigPath=/root/namesrv/kvConfig.json
+2019-03-05 23:35:37 INFO main - configStorePath=/root/namesrv/namesrv.properties
+2019-03-05 23:35:37 INFO main - productEnvName=center
+2019-03-05 23:35:37 INFO main - clusterTest=false
+2019-03-05 23:35:37 INFO main - orderMessageEnable=false
+2019-03-05 23:35:37 INFO main - listenPort=9876
+2019-03-05 23:35:37 INFO main - serverWorkerThreads=8
+2019-03-05 23:35:37 INFO main - serverCallbackExecutorThreads=0
+2019-03-05 23:35:37 INFO main - serverSelectorThreads=3
+2019-03-05 23:35:37 INFO main - serverOnewaySemaphoreValue=256
+2019-03-05 23:35:37 INFO main - serverAsyncSemaphoreValue=64
+2019-03-05 23:35:37 INFO main - serverChannelMaxIdleTimeSeconds=120
+2019-03-05 23:35:37 INFO main - serverSocketSndBufSize=65535
+2019-03-05 23:35:37 INFO main - serverSocketRcvBufSize=65535
+2019-03-05 23:35:37 INFO main - serverPooledByteBufAllocatorEnable=true
+2019-03-05 23:35:37 INFO main - useEpollNativeSelector=false
+2019-03-05 23:35:38 INFO main - Server is running in TLS permissive mode
+2019-03-05 23:35:38 INFO main - Tls config file doesn't exist, skip it
+2019-03-05 23:35:38 INFO main - Log the final used tls related configuration
+2019-03-05 23:35:38 INFO main - tls.test.mode.enable = true
+2019-03-05 23:35:38 INFO main - tls.server.need.client.auth = none
+2019-03-05 23:35:38 INFO main - tls.server.keyPath = null
+2019-03-05 23:35:38 INFO main - tls.server.keyPassword = null
+2019-03-05 23:35:38 INFO main - tls.server.certPath = null
+2019-03-05 23:35:38 INFO main - tls.server.authClient = false
+2019-03-05 23:35:38 INFO main - tls.server.trustCertPath = null
+2019-03-05 23:35:38 INFO main - tls.client.keyPath = null
+2019-03-05 23:35:38 INFO main - tls.client.keyPassword = null
+2019-03-05 23:35:38 INFO main - tls.client.certPath = null
+2019-03-05 23:35:38 INFO main - tls.client.authServer = false
+2019-03-05 23:35:38 INFO main - tls.client.trustCertPath = null
+2019-03-05 23:35:38 INFO main - Using OpenSSL provider
+2019-03-05 23:35:39 INFO main - SSLContext created for server
+2019-03-05 23:35:39 INFO NettyEventExecutor - NettyEventExecutor service started
+2019-03-05 23:35:39 INFO FileWatchService - FileWatchService service started
+2019-03-05 23:35:39 INFO main - The Name Server boot success. serializeType=JSON
+2019-03-05 23:35:40 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.18.0.3:50416
+2019-03-05 23:35:40 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.18.0.3:50416]
+2019-03-05 23:35:40 INFO RemotingExecutorThread_1 - new topic registered, 6190a217c10a QueueData [brokerName=6190a217c10a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2019-03-05 23:35:40 INFO RemotingExecutorThread_1 - new topic registered, RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=6190a217c10a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2019-03-05 23:35:40 INFO RemotingExecutorThread_1 - new topic registered, BenchmarkTest QueueData [brokerName=6190a217c10a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2019-03-05 23:35:40 INFO RemotingExecutorThread_1 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=6190a217c10a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2019-03-05 23:35:40 INFO RemotingExecutorThread_1 - new topic registered, TBW102 QueueData [brokerName=6190a217c10a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2019-03-05 23:35:40 INFO RemotingExecutorThread_1 - new topic registered, e46b0b9bebe4 QueueData [brokerName=6190a217c10a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2019-03-05 23:35:40 INFO RemotingExecutorThread_1 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=6190a217c10a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2019-03-05 23:35:40 INFO RemotingExecutorThread_1 - new topic registered, DefaultCluster QueueData [brokerName=6190a217c10a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2019-03-05 23:35:40 INFO RemotingExecutorThread_1 - new broker registered, 172.18.0.3:10911 HAServer: 172.18.0.3:10912
+2019-03-05 23:35:50 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.18.0.1:35918
+2019-03-05 23:35:50 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.18.0.1:35918]
+2019-03-05 23:35:50 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.18.0.1:35920
+2019-03-05 23:35:50 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.18.0.1:35920]
+2019-03-05 23:35:52 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.18.0.1:35920]
+2019-03-05 23:35:52 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.18.0.1:35920]
+2019-03-05 23:35:59 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.18.0.1:35926
+2019-03-05 23:35:59 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.18.0.1:35926]
+2019-03-05 23:36:27 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.18.0.1:35926]
+2019-03-05 23:36:27 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.18.0.1:35926]
+2019-03-05 23:36:33 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.18.0.1:35918]
+2019-03-05 23:36:33 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.18.0.1:35918]
+2019-03-05 23:36:37 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.18.0.1:35966
+2019-03-05 23:36:37 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.18.0.1:35966]
+2019-03-05 23:36:39 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-03-05 23:36:39 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-03-05 23:36:47 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 172.18.0.1:35978
+2019-03-05 23:36:47 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[172.18.0.1:35978]
+2019-03-05 23:37:47 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.18.0.1:35966]
+2019-03-05 23:37:47 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.18.0.1:35966]
+2019-03-05 23:37:54 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelRegistered 172.18.0.1:36050
+2019-03-05 23:37:54 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelActive, the channel[172.18.0.1:36050]
+2019-03-05 23:38:35 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[172.18.0.1:36050]
+2019-03-05 23:38:35 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.18.0.1:36050]
+2019-03-05 23:38:48 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelRegistered 172.18.0.1:36104
+2019-03-05 23:38:48 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelActive, the channel[172.18.0.1:36104]
+2019-03-05 23:40:52 INFO main - rocketmqHome=/opt/rocketmq-4.4.0
+2019-03-05 23:40:52 INFO main - kvConfigPath=/root/namesrv/kvConfig.json
+2019-03-05 23:40:52 INFO main - configStorePath=/root/namesrv/namesrv.properties
+2019-03-05 23:40:52 INFO main - productEnvName=center
+2019-03-05 23:40:52 INFO main - clusterTest=false
+2019-03-05 23:40:52 INFO main - orderMessageEnable=false
+2019-03-05 23:40:52 INFO main - listenPort=9876
+2019-03-05 23:40:52 INFO main - serverWorkerThreads=8
+2019-03-05 23:40:52 INFO main - serverCallbackExecutorThreads=0
+2019-03-05 23:40:52 INFO main - serverSelectorThreads=3
+2019-03-05 23:40:52 INFO main - serverOnewaySemaphoreValue=256
+2019-03-05 23:40:52 INFO main - serverAsyncSemaphoreValue=64
+2019-03-05 23:40:52 INFO main - serverChannelMaxIdleTimeSeconds=120
+2019-03-05 23:40:52 INFO main - serverSocketSndBufSize=65535
+2019-03-05 23:40:52 INFO main - serverSocketRcvBufSize=65535
+2019-03-05 23:40:52 INFO main - serverPooledByteBufAllocatorEnable=true
+2019-03-05 23:40:52 INFO main - useEpollNativeSelector=false
+2019-03-05 23:40:52 INFO main - Server is running in TLS permissive mode
+2019-03-05 23:40:52 INFO main - Tls config file doesn't exist, skip it
+2019-03-05 23:40:52 INFO main - Log the final used tls related configuration
+2019-03-05 23:40:52 INFO main - tls.test.mode.enable = true
+2019-03-05 23:40:52 INFO main - tls.server.need.client.auth = none
+2019-03-05 23:40:52 INFO main - tls.server.keyPath = null
+2019-03-05 23:40:52 INFO main - tls.server.keyPassword = null
+2019-03-05 23:40:52 INFO main - tls.server.certPath = null
+2019-03-05 23:40:52 INFO main - tls.server.authClient = false
+2019-03-05 23:40:52 INFO main - tls.server.trustCertPath = null
+2019-03-05 23:40:52 INFO main - tls.client.keyPath = null
+2019-03-05 23:40:52 INFO main - tls.client.keyPassword = null
+2019-03-05 23:40:52 INFO main - tls.client.certPath = null
+2019-03-05 23:40:52 INFO main - tls.client.authServer = false
+2019-03-05 23:40:52 INFO main - tls.client.trustCertPath = null
+2019-03-05 23:40:53 INFO main - Using OpenSSL provider
+2019-03-05 23:40:53 INFO main - SSLContext created for server
+2019-03-05 23:40:54 INFO NettyEventExecutor - NettyEventExecutor service started
+2019-03-05 23:40:54 INFO FileWatchService - FileWatchService service started
+2019-03-05 23:40:54 INFO main - The Name Server boot success. serializeType=JSON
+2019-03-05 23:40:55 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.3:49946
+2019-03-05 23:40:55 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.3:49946]
+2019-03-05 23:40:55 INFO RemotingExecutorThread_1 - new topic registered, RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=f9b091a039a9, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2019-03-05 23:40:55 INFO RemotingExecutorThread_1 - new topic registered, BenchmarkTest QueueData [brokerName=f9b091a039a9, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2019-03-05 23:40:55 INFO RemotingExecutorThread_1 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=f9b091a039a9, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2019-03-05 23:40:55 INFO RemotingExecutorThread_1 - new topic registered, f9b091a039a9 QueueData [brokerName=f9b091a039a9, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2019-03-05 23:40:55 INFO RemotingExecutorThread_1 - new topic registered, TBW102 QueueData [brokerName=f9b091a039a9, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2019-03-05 23:40:55 INFO RemotingExecutorThread_1 - new topic registered, e46b0b9bebe4 QueueData [brokerName=f9b091a039a9, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2019-03-05 23:40:55 INFO RemotingExecutorThread_1 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=f9b091a039a9, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2019-03-05 23:40:55 INFO RemotingExecutorThread_1 - new topic registered, DefaultCluster QueueData [brokerName=f9b091a039a9, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2019-03-05 23:40:55 INFO RemotingExecutorThread_1 - new broker registered, 172.19.0.3:10911 HAServer: 172.19.0.3:10912
+2019-03-05 23:41:08 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.1:38886
+2019-03-05 23:41:08 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.1:38886]
+2019-03-05 23:41:10 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.1:38894
+2019-03-05 23:41:10 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.1:38894]
+2019-03-05 23:41:53 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-03-05 23:41:53 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-03-05 23:43:43 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.19.0.1:38894]
+2019-03-05 23:43:43 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.19.0.1:38894]
+2019-03-05 23:43:44 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.19.0.1:38886]
+2019-03-05 23:43:44 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.19.0.1:38886]

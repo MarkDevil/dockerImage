@@ -1,0 +1,713 @@
+2019-03-05 22:57:21 INFO main - rocketmqHome=/opt/rocketmq-4.4.0
+2019-03-05 22:57:21 INFO main - namesrvAddr=namesrv:9876
+2019-03-05 22:57:21 INFO main - brokerIP1=172.18.0.3
+2019-03-05 22:57:21 INFO main - brokerIP2=172.18.0.3
+2019-03-05 22:57:21 INFO main - brokerName=e46b0b9bebe4
+2019-03-05 22:57:21 INFO main - brokerClusterName=DefaultCluster
+2019-03-05 22:57:21 INFO main - brokerId=0
+2019-03-05 22:57:21 INFO main - brokerPermission=6
+2019-03-05 22:57:21 INFO main - defaultTopicQueueNums=8
+2019-03-05 22:57:21 INFO main - autoCreateTopicEnable=true
+2019-03-05 22:57:21 INFO main - clusterTopicEnable=true
+2019-03-05 22:57:21 INFO main - brokerTopicEnable=true
+2019-03-05 22:57:21 INFO main - autoCreateSubscriptionGroup=true
+2019-03-05 22:57:21 INFO main - messageStorePlugIn=
+2019-03-05 22:57:21 INFO main - msgTraceTopicName=RMQ_SYS_TRACE_TOPIC
+2019-03-05 22:57:21 INFO main - traceTopicEnable=false
+2019-03-05 22:57:21 INFO main - sendMessageThreadPoolNums=1
+2019-03-05 22:57:21 INFO main - pullMessageThreadPoolNums=20
+2019-03-05 22:57:21 INFO main - queryMessageThreadPoolNums=10
+2019-03-05 22:57:21 INFO main - adminBrokerThreadPoolNums=16
+2019-03-05 22:57:21 INFO main - clientManageThreadPoolNums=32
+2019-03-05 22:57:21 INFO main - consumerManageThreadPoolNums=32
+2019-03-05 22:57:21 INFO main - heartbeatThreadPoolNums=2
+2019-03-05 22:57:21 INFO main - endTransactionThreadPoolNums=12
+2019-03-05 22:57:21 INFO main - flushConsumerOffsetInterval=5000
+2019-03-05 22:57:21 INFO main - flushConsumerOffsetHistoryInterval=60000
+2019-03-05 22:57:21 INFO main - rejectTransactionMessage=false
+2019-03-05 22:57:21 INFO main - fetchNamesrvAddrByAddressServer=false
+2019-03-05 22:57:21 INFO main - sendThreadPoolQueueCapacity=10000
+2019-03-05 22:57:21 INFO main - pullThreadPoolQueueCapacity=100000
+2019-03-05 22:57:21 INFO main - queryThreadPoolQueueCapacity=20000
+2019-03-05 22:57:21 INFO main - clientManagerThreadPoolQueueCapacity=1000000
+2019-03-05 22:57:21 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
+2019-03-05 22:57:21 INFO main - heartbeatThreadPoolQueueCapacity=50000
+2019-03-05 22:57:21 INFO main - endTransactionPoolQueueCapacity=100000
+2019-03-05 22:57:21 INFO main - filterServerNums=0
+2019-03-05 22:57:21 INFO main - longPollingEnable=true
+2019-03-05 22:57:21 INFO main - shortPollingTimeMills=1000
+2019-03-05 22:57:21 INFO main - notifyConsumerIdsChangedEnable=true
+2019-03-05 22:57:21 INFO main - highSpeedMode=false
+2019-03-05 22:57:21 INFO main - commercialEnable=true
+2019-03-05 22:57:21 INFO main - commercialTimerCount=1
+2019-03-05 22:57:21 INFO main - commercialTransCount=1
+2019-03-05 22:57:21 INFO main - commercialBigCount=1
+2019-03-05 22:57:21 INFO main - commercialBaseCount=1
+2019-03-05 22:57:21 INFO main - transferMsgByHeap=true
+2019-03-05 22:57:21 INFO main - maxDelayTime=40
+2019-03-05 22:57:21 INFO main - regionId=DefaultRegion
+2019-03-05 22:57:21 INFO main - registerBrokerTimeoutMills=6000
+2019-03-05 22:57:21 INFO main - slaveReadEnable=false
+2019-03-05 22:57:21 INFO main - disableConsumeIfConsumerReadSlowly=false
+2019-03-05 22:57:21 INFO main - consumerFallbehindThreshold=17179869184
+2019-03-05 22:57:21 INFO main - brokerFastFailureEnable=true
+2019-03-05 22:57:21 INFO main - waitTimeMillsInSendQueue=200
+2019-03-05 22:57:21 INFO main - waitTimeMillsInPullQueue=5000
+2019-03-05 22:57:21 INFO main - waitTimeMillsInHeartbeatQueue=31000
+2019-03-05 22:57:21 INFO main - waitTimeMillsInTransactionQueue=3000
+2019-03-05 22:57:21 INFO main - startAcceptSendRequestTimeStamp=0
+2019-03-05 22:57:21 INFO main - traceOn=true
+2019-03-05 22:57:21 INFO main - enableCalcFilterBitMap=false
+2019-03-05 22:57:21 INFO main - expectConsumerNumUseFilter=32
+2019-03-05 22:57:21 INFO main - maxErrorRateOfBloomFilter=20
+2019-03-05 22:57:21 INFO main - filterDataCleanTimeSpan=86400000
+2019-03-05 22:57:21 INFO main - filterSupportRetry=false
+2019-03-05 22:57:21 INFO main - enablePropertyFilter=false
+2019-03-05 22:57:21 INFO main - compressedRegister=false
+2019-03-05 22:57:21 INFO main - forceRegister=true
+2019-03-05 22:57:21 INFO main - registerNameServerPeriod=30000
+2019-03-05 22:57:21 INFO main - transactionTimeOut=6000
+2019-03-05 22:57:21 INFO main - transactionCheckMax=15
+2019-03-05 22:57:21 INFO main - transactionCheckInterval=60000
+2019-03-05 22:57:21 INFO main - aclEnable=false
+2019-03-05 22:57:21 INFO main - listenPort=10911
+2019-03-05 22:57:21 INFO main - serverWorkerThreads=8
+2019-03-05 22:57:21 INFO main - serverCallbackExecutorThreads=0
+2019-03-05 22:57:21 INFO main - serverSelectorThreads=3
+2019-03-05 22:57:21 INFO main - serverOnewaySemaphoreValue=256
+2019-03-05 22:57:21 INFO main - serverAsyncSemaphoreValue=64
+2019-03-05 22:57:21 INFO main - serverChannelMaxIdleTimeSeconds=120
+2019-03-05 22:57:21 INFO main - serverSocketSndBufSize=131072
+2019-03-05 22:57:21 INFO main - serverSocketRcvBufSize=131072
+2019-03-05 22:57:21 INFO main - serverPooledByteBufAllocatorEnable=true
+2019-03-05 22:57:21 INFO main - useEpollNativeSelector=false
+2019-03-05 22:57:21 INFO main - clientWorkerThreads=4
+2019-03-05 22:57:21 INFO main - clientCallbackExecutorThreads=2
+2019-03-05 22:57:21 INFO main - clientOnewaySemaphoreValue=65535
+2019-03-05 22:57:21 INFO main - clientAsyncSemaphoreValue=65535
+2019-03-05 22:57:21 INFO main - connectTimeoutMillis=3000
+2019-03-05 22:57:21 INFO main - channelNotActiveInterval=60000
+2019-03-05 22:57:21 INFO main - clientChannelMaxIdleTimeSeconds=120
+2019-03-05 22:57:21 INFO main - clientSocketSndBufSize=131072
+2019-03-05 22:57:21 INFO main - clientSocketRcvBufSize=131072
+2019-03-05 22:57:21 INFO main - clientPooledByteBufAllocatorEnable=false
+2019-03-05 22:57:21 INFO main - clientCloseSocketIfTimeout=false
+2019-03-05 22:57:21 INFO main - useTLS=false
+2019-03-05 22:57:21 INFO main - storePathRootDir=/root/store
+2019-03-05 22:57:21 INFO main - storePathCommitLog=/root/store/commitlog
+2019-03-05 22:57:21 INFO main - mapedFileSizeCommitLog=1073741824
+2019-03-05 22:57:21 INFO main - mapedFileSizeConsumeQueue=6000000
+2019-03-05 22:57:21 INFO main - enableConsumeQueueExt=false
+2019-03-05 22:57:21 INFO main - mappedFileSizeConsumeQueueExt=50331648
+2019-03-05 22:57:21 INFO main - bitMapLengthConsumeQueueExt=64
+2019-03-05 22:57:21 INFO main - flushIntervalCommitLog=500
+2019-03-05 22:57:21 INFO main - commitIntervalCommitLog=200
+2019-03-05 22:57:21 INFO main - useReentrantLockWhenPutMessage=false
+2019-03-05 22:57:21 INFO main - flushCommitLogTimed=false
+2019-03-05 22:57:21 INFO main - flushIntervalConsumeQueue=1000
+2019-03-05 22:57:21 INFO main - cleanResourceInterval=10000
+2019-03-05 22:57:21 INFO main - deleteCommitLogFilesInterval=100
+2019-03-05 22:57:21 INFO main - deleteConsumeQueueFilesInterval=100
+2019-03-05 22:57:21 INFO main - destroyMapedFileIntervalForcibly=120000
+2019-03-05 22:57:21 INFO main - redeleteHangedFileInterval=120000
+2019-03-05 22:57:21 INFO main - deleteWhen=04
+2019-03-05 22:57:21 INFO main - diskMaxUsedSpaceRatio=75
+2019-03-05 22:57:21 INFO main - fileReservedTime=72
+2019-03-05 22:57:21 INFO main - putMsgIndexHightWater=600000
+2019-03-05 22:57:21 INFO main - maxMessageSize=4194304
+2019-03-05 22:57:21 INFO main - checkCRCOnRecover=true
+2019-03-05 22:57:21 INFO main - flushCommitLogLeastPages=4
+2019-03-05 22:57:21 INFO main - commitCommitLogLeastPages=4
+2019-03-05 22:57:21 INFO main - flushLeastPagesWhenWarmMapedFile=4096
+2019-03-05 22:57:21 INFO main - flushConsumeQueueLeastPages=2
+2019-03-05 22:57:21 INFO main - flushCommitLogThoroughInterval=10000
+2019-03-05 22:57:21 INFO main - commitCommitLogThoroughInterval=200
+2019-03-05 22:57:21 INFO main - flushConsumeQueueThoroughInterval=60000
+2019-03-05 22:57:21 INFO main - maxTransferBytesOnMessageInMemory=262144
+2019-03-05 22:57:21 INFO main - maxTransferCountOnMessageInMemory=32
+2019-03-05 22:57:21 INFO main - maxTransferBytesOnMessageInDisk=65536
+2019-03-05 22:57:21 INFO main - maxTransferCountOnMessageInDisk=8
+2019-03-05 22:57:21 INFO main - accessMessageInMemoryMaxRatio=40
+2019-03-05 22:57:21 INFO main - messageIndexEnable=true
+2019-03-05 22:57:21 INFO main - maxHashSlotNum=5000000
+2019-03-05 22:57:21 INFO main - maxIndexNum=20000000
+2019-03-05 22:57:21 INFO main - maxMsgsNumBatch=64
+2019-03-05 22:57:21 INFO main - messageIndexSafe=false
+2019-03-05 22:57:21 INFO main - haListenPort=10912
+2019-03-05 22:57:21 INFO main - haSendHeartbeatInterval=5000
+2019-03-05 22:57:21 INFO main - haHousekeepingInterval=20000
+2019-03-05 22:57:21 INFO main - haTransferBatchSize=32768
+2019-03-05 22:57:21 INFO main - haMasterAddress=
+2019-03-05 22:57:21 INFO main - haSlaveFallbehindMax=268435456
+2019-03-05 22:57:21 INFO main - brokerRole=ASYNC_MASTER
+2019-03-05 22:57:21 INFO main - flushDiskType=ASYNC_FLUSH
+2019-03-05 22:57:21 INFO main - syncFlushTimeout=5000
+2019-03-05 22:57:21 INFO main - messageDelayLevel=1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h
+2019-03-05 22:57:21 INFO main - flushDelayOffsetInterval=10000
+2019-03-05 22:57:21 INFO main - cleanFileForciblyEnable=true
+2019-03-05 22:57:21 INFO main - warmMapedFileEnable=false
+2019-03-05 22:57:21 INFO main - offsetCheckInSlave=false
+2019-03-05 22:57:21 INFO main - debugLockEnable=false
+2019-03-05 22:57:21 INFO main - duplicationEnable=false
+2019-03-05 22:57:21 INFO main - diskFallRecorded=true
+2019-03-05 22:57:21 INFO main - osPageCacheBusyTimeOutMills=1000
+2019-03-05 22:57:21 INFO main - defaultQueryMaxNum=32
+2019-03-05 22:57:21 INFO main - transientStorePoolEnable=false
+2019-03-05 22:57:21 INFO main - transientStorePoolSize=5
+2019-03-05 22:57:21 INFO main - fastFailIfNoBufferInStorePool=false
+2019-03-05 22:57:22 INFO main - Set user specified name server address: namesrv:9876
+2019-03-05 22:57:22 WARN main - Load default transaction message hook service: TransactionalMessageServiceImpl
+2019-03-05 22:57:22 WARN main - Load default discard message hook service: DefaultTransactionalMessageCheckListener
+2019-03-05 22:57:22 INFO main - The broker dose not enable acl
+2019-03-05 22:57:22 INFO FileWatchService - FileWatchService service started
+2019-03-05 22:57:22 INFO PullRequestHoldService - PullRequestHoldService service started
+2019-03-05 22:57:23 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2019-03-05 22:57:23 INFO main - Start transaction service!
+2019-03-05 22:57:23 INFO main - The broker[e46b0b9bebe4, 172.18.0.3:10911] boot success. serializeType=JSON and name server is namesrv:9876
+2019-03-05 22:57:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 22:57:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 22:57:33 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2019-03-05 22:58:03 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2019-03-05 22:58:23 INFO TransactionalMessageCheckService - create new topic TopicConfig [topicName=RMQ_SYS_TRANS_HALF_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2019-03-05 22:58:23 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2019-03-05 22:58:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 22:58:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 22:58:33 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2019-03-05 22:59:03 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2019-03-05 22:59:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 22:59:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 22:59:33 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2019-03-05 23:00:03 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2019-03-05 23:00:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:00:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:00:33 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2019-03-05 23:01:03 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2019-03-05 23:01:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:01:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:01:33 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2019-03-05 23:02:03 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2019-03-05 23:02:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:02:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:02:33 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2019-03-05 23:03:03 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2019-03-05 23:03:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:03:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:03:33 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2019-03-05 23:04:03 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2019-03-05 23:04:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:04:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:04:33 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2019-03-05 23:05:03 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2019-03-05 23:05:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:05:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:05:33 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2019-03-05 23:06:03 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2019-03-05 23:06:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:06:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:06:33 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2019-03-05 23:07:03 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2019-03-05 23:07:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:07:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:07:33 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2019-03-05 23:08:03 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2019-03-05 23:08:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:08:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:08:33 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2019-03-05 23:09:03 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2019-03-05 23:09:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:09:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:09:33 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2019-03-05 23:10:03 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2019-03-05 23:10:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:10:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:10:33 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2019-03-05 23:11:03 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2019-03-05 23:11:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:11:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:11:33 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2019-03-05 23:12:02 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2019-03-05 23:12:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:12:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:12:32 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2019-03-05 23:13:02 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2019-03-05 23:13:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:13:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:13:32 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2019-03-05 23:14:02 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2019-03-05 23:14:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:14:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:14:32 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2019-03-05 23:15:02 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2019-03-05 23:15:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:15:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:15:32 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2019-03-05 23:16:02 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2019-03-05 23:16:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:16:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:16:32 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2019-03-05 23:17:02 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2019-03-05 23:17:31 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:17:31 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:17:32 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2019-03-05 23:18:02 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2019-03-05 23:18:31 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:18:31 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:18:32 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2019-03-05 23:19:02 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2019-03-05 23:19:31 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:19:31 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:19:32 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2019-03-05 23:20:02 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2019-03-05 23:20:31 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:20:31 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:20:32 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2019-03-05 23:21:02 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2019-03-05 23:21:31 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:21:31 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:21:32 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2019-03-05 23:22:02 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2019-03-05 23:22:31 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:22:31 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:22:32 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2019-03-05 23:23:02 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2019-03-05 23:23:31 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:23:31 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:23:32 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2019-03-05 23:24:02 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2019-03-05 23:24:31 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:24:31 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:24:32 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2019-03-05 23:25:02 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2019-03-05 23:25:31 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:25:31 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:25:32 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2019-03-05 23:26:02 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2019-03-05 23:26:31 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:26:31 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:26:32 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2019-03-05 23:27:02 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2019-03-05 23:27:31 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:27:31 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:27:32 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2019-03-05 23:28:02 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2019-03-05 23:28:31 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:28:31 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:28:32 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2019-03-05 23:29:02 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2019-03-05 23:29:31 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:29:31 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:29:32 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2019-03-05 23:30:02 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2019-03-05 23:30:31 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:30:31 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:30:32 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2019-03-05 23:31:02 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2019-03-05 23:31:31 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:31:31 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:31:32 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2019-03-05 23:32:02 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2019-03-05 23:32:31 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:32:31 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:32:32 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2019-03-05 23:33:02 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2019-03-05 23:33:31 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:33:31 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:33:32 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2019-03-05 23:34:02 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2019-03-05 23:34:31 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:34:31 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:34:32 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2019-03-05 23:35:01 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2019-03-05 23:35:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:35:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:35:32 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2019-03-05 23:35:38 INFO main - rocketmqHome=/opt/rocketmq-4.4.0
+2019-03-05 23:35:38 INFO main - namesrvAddr=namesrv:9876
+2019-03-05 23:35:38 INFO main - brokerIP1=172.18.0.3
+2019-03-05 23:35:38 INFO main - brokerIP2=172.18.0.3
+2019-03-05 23:35:38 INFO main - brokerName=6190a217c10a
+2019-03-05 23:35:38 INFO main - brokerClusterName=DefaultCluster
+2019-03-05 23:35:38 INFO main - brokerId=0
+2019-03-05 23:35:38 INFO main - brokerPermission=6
+2019-03-05 23:35:38 INFO main - defaultTopicQueueNums=8
+2019-03-05 23:35:38 INFO main - autoCreateTopicEnable=true
+2019-03-05 23:35:38 INFO main - clusterTopicEnable=true
+2019-03-05 23:35:38 INFO main - brokerTopicEnable=true
+2019-03-05 23:35:38 INFO main - autoCreateSubscriptionGroup=true
+2019-03-05 23:35:38 INFO main - messageStorePlugIn=
+2019-03-05 23:35:38 INFO main - msgTraceTopicName=RMQ_SYS_TRACE_TOPIC
+2019-03-05 23:35:38 INFO main - traceTopicEnable=false
+2019-03-05 23:35:38 INFO main - sendMessageThreadPoolNums=1
+2019-03-05 23:35:38 INFO main - pullMessageThreadPoolNums=20
+2019-03-05 23:35:38 INFO main - queryMessageThreadPoolNums=10
+2019-03-05 23:35:38 INFO main - adminBrokerThreadPoolNums=16
+2019-03-05 23:35:38 INFO main - clientManageThreadPoolNums=32
+2019-03-05 23:35:38 INFO main - consumerManageThreadPoolNums=32
+2019-03-05 23:35:38 INFO main - heartbeatThreadPoolNums=2
+2019-03-05 23:35:38 INFO main - endTransactionThreadPoolNums=12
+2019-03-05 23:35:38 INFO main - flushConsumerOffsetInterval=5000
+2019-03-05 23:35:38 INFO main - flushConsumerOffsetHistoryInterval=60000
+2019-03-05 23:35:38 INFO main - rejectTransactionMessage=false
+2019-03-05 23:35:38 INFO main - fetchNamesrvAddrByAddressServer=false
+2019-03-05 23:35:38 INFO main - sendThreadPoolQueueCapacity=10000
+2019-03-05 23:35:38 INFO main - pullThreadPoolQueueCapacity=100000
+2019-03-05 23:35:38 INFO main - queryThreadPoolQueueCapacity=20000
+2019-03-05 23:35:38 INFO main - clientManagerThreadPoolQueueCapacity=1000000
+2019-03-05 23:35:38 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
+2019-03-05 23:35:38 INFO main - heartbeatThreadPoolQueueCapacity=50000
+2019-03-05 23:35:38 INFO main - endTransactionPoolQueueCapacity=100000
+2019-03-05 23:35:38 INFO main - filterServerNums=0
+2019-03-05 23:35:38 INFO main - longPollingEnable=true
+2019-03-05 23:35:38 INFO main - shortPollingTimeMills=1000
+2019-03-05 23:35:38 INFO main - notifyConsumerIdsChangedEnable=true
+2019-03-05 23:35:38 INFO main - highSpeedMode=false
+2019-03-05 23:35:38 INFO main - commercialEnable=true
+2019-03-05 23:35:38 INFO main - commercialTimerCount=1
+2019-03-05 23:35:38 INFO main - commercialTransCount=1
+2019-03-05 23:35:38 INFO main - commercialBigCount=1
+2019-03-05 23:35:38 INFO main - commercialBaseCount=1
+2019-03-05 23:35:38 INFO main - transferMsgByHeap=true
+2019-03-05 23:35:38 INFO main - maxDelayTime=40
+2019-03-05 23:35:38 INFO main - regionId=DefaultRegion
+2019-03-05 23:35:38 INFO main - registerBrokerTimeoutMills=6000
+2019-03-05 23:35:38 INFO main - slaveReadEnable=false
+2019-03-05 23:35:38 INFO main - disableConsumeIfConsumerReadSlowly=false
+2019-03-05 23:35:38 INFO main - consumerFallbehindThreshold=17179869184
+2019-03-05 23:35:38 INFO main - brokerFastFailureEnable=true
+2019-03-05 23:35:38 INFO main - waitTimeMillsInSendQueue=200
+2019-03-05 23:35:38 INFO main - waitTimeMillsInPullQueue=5000
+2019-03-05 23:35:38 INFO main - waitTimeMillsInHeartbeatQueue=31000
+2019-03-05 23:35:38 INFO main - waitTimeMillsInTransactionQueue=3000
+2019-03-05 23:35:38 INFO main - startAcceptSendRequestTimeStamp=0
+2019-03-05 23:35:38 INFO main - traceOn=true
+2019-03-05 23:35:38 INFO main - enableCalcFilterBitMap=false
+2019-03-05 23:35:38 INFO main - expectConsumerNumUseFilter=32
+2019-03-05 23:35:38 INFO main - maxErrorRateOfBloomFilter=20
+2019-03-05 23:35:38 INFO main - filterDataCleanTimeSpan=86400000
+2019-03-05 23:35:38 INFO main - filterSupportRetry=false
+2019-03-05 23:35:38 INFO main - enablePropertyFilter=false
+2019-03-05 23:35:38 INFO main - compressedRegister=false
+2019-03-05 23:35:38 INFO main - forceRegister=true
+2019-03-05 23:35:38 INFO main - registerNameServerPeriod=30000
+2019-03-05 23:35:38 INFO main - transactionTimeOut=6000
+2019-03-05 23:35:38 INFO main - transactionCheckMax=15
+2019-03-05 23:35:38 INFO main - transactionCheckInterval=60000
+2019-03-05 23:35:38 INFO main - aclEnable=false
+2019-03-05 23:35:38 INFO main - listenPort=10911
+2019-03-05 23:35:38 INFO main - serverWorkerThreads=8
+2019-03-05 23:35:38 INFO main - serverCallbackExecutorThreads=0
+2019-03-05 23:35:38 INFO main - serverSelectorThreads=3
+2019-03-05 23:35:38 INFO main - serverOnewaySemaphoreValue=256
+2019-03-05 23:35:38 INFO main - serverAsyncSemaphoreValue=64
+2019-03-05 23:35:38 INFO main - serverChannelMaxIdleTimeSeconds=120
+2019-03-05 23:35:38 INFO main - serverSocketSndBufSize=131072
+2019-03-05 23:35:38 INFO main - serverSocketRcvBufSize=131072
+2019-03-05 23:35:38 INFO main - serverPooledByteBufAllocatorEnable=true
+2019-03-05 23:35:38 INFO main - useEpollNativeSelector=false
+2019-03-05 23:35:38 INFO main - clientWorkerThreads=4
+2019-03-05 23:35:38 INFO main - clientCallbackExecutorThreads=2
+2019-03-05 23:35:38 INFO main - clientOnewaySemaphoreValue=65535
+2019-03-05 23:35:38 INFO main - clientAsyncSemaphoreValue=65535
+2019-03-05 23:35:38 INFO main - connectTimeoutMillis=3000
+2019-03-05 23:35:38 INFO main - channelNotActiveInterval=60000
+2019-03-05 23:35:38 INFO main - clientChannelMaxIdleTimeSeconds=120
+2019-03-05 23:35:38 INFO main - clientSocketSndBufSize=131072
+2019-03-05 23:35:38 INFO main - clientSocketRcvBufSize=131072
+2019-03-05 23:35:38 INFO main - clientPooledByteBufAllocatorEnable=false
+2019-03-05 23:35:38 INFO main - clientCloseSocketIfTimeout=false
+2019-03-05 23:35:38 INFO main - useTLS=false
+2019-03-05 23:35:38 INFO main - storePathRootDir=/root/store
+2019-03-05 23:35:38 INFO main - storePathCommitLog=/root/store/commitlog
+2019-03-05 23:35:38 INFO main - mapedFileSizeCommitLog=1073741824
+2019-03-05 23:35:38 INFO main - mapedFileSizeConsumeQueue=6000000
+2019-03-05 23:35:38 INFO main - enableConsumeQueueExt=false
+2019-03-05 23:35:38 INFO main - mappedFileSizeConsumeQueueExt=50331648
+2019-03-05 23:35:38 INFO main - bitMapLengthConsumeQueueExt=64
+2019-03-05 23:35:38 INFO main - flushIntervalCommitLog=500
+2019-03-05 23:35:38 INFO main - commitIntervalCommitLog=200
+2019-03-05 23:35:38 INFO main - useReentrantLockWhenPutMessage=false
+2019-03-05 23:35:38 INFO main - flushCommitLogTimed=false
+2019-03-05 23:35:38 INFO main - flushIntervalConsumeQueue=1000
+2019-03-05 23:35:38 INFO main - cleanResourceInterval=10000
+2019-03-05 23:35:38 INFO main - deleteCommitLogFilesInterval=100
+2019-03-05 23:35:38 INFO main - deleteConsumeQueueFilesInterval=100
+2019-03-05 23:35:38 INFO main - destroyMapedFileIntervalForcibly=120000
+2019-03-05 23:35:38 INFO main - redeleteHangedFileInterval=120000
+2019-03-05 23:35:38 INFO main - deleteWhen=04
+2019-03-05 23:35:38 INFO main - diskMaxUsedSpaceRatio=75
+2019-03-05 23:35:38 INFO main - fileReservedTime=72
+2019-03-05 23:35:38 INFO main - putMsgIndexHightWater=600000
+2019-03-05 23:35:38 INFO main - maxMessageSize=4194304
+2019-03-05 23:35:38 INFO main - checkCRCOnRecover=true
+2019-03-05 23:35:38 INFO main - flushCommitLogLeastPages=4
+2019-03-05 23:35:38 INFO main - commitCommitLogLeastPages=4
+2019-03-05 23:35:38 INFO main - flushLeastPagesWhenWarmMapedFile=4096
+2019-03-05 23:35:38 INFO main - flushConsumeQueueLeastPages=2
+2019-03-05 23:35:38 INFO main - flushCommitLogThoroughInterval=10000
+2019-03-05 23:35:38 INFO main - commitCommitLogThoroughInterval=200
+2019-03-05 23:35:38 INFO main - flushConsumeQueueThoroughInterval=60000
+2019-03-05 23:35:38 INFO main - maxTransferBytesOnMessageInMemory=262144
+2019-03-05 23:35:38 INFO main - maxTransferCountOnMessageInMemory=32
+2019-03-05 23:35:38 INFO main - maxTransferBytesOnMessageInDisk=65536
+2019-03-05 23:35:38 INFO main - maxTransferCountOnMessageInDisk=8
+2019-03-05 23:35:38 INFO main - accessMessageInMemoryMaxRatio=40
+2019-03-05 23:35:38 INFO main - messageIndexEnable=true
+2019-03-05 23:35:38 INFO main - maxHashSlotNum=5000000
+2019-03-05 23:35:38 INFO main - maxIndexNum=20000000
+2019-03-05 23:35:38 INFO main - maxMsgsNumBatch=64
+2019-03-05 23:35:38 INFO main - messageIndexSafe=false
+2019-03-05 23:35:38 INFO main - haListenPort=10912
+2019-03-05 23:35:38 INFO main - haSendHeartbeatInterval=5000
+2019-03-05 23:35:38 INFO main - haHousekeepingInterval=20000
+2019-03-05 23:35:38 INFO main - haTransferBatchSize=32768
+2019-03-05 23:35:38 INFO main - haMasterAddress=
+2019-03-05 23:35:38 INFO main - haSlaveFallbehindMax=268435456
+2019-03-05 23:35:38 INFO main - brokerRole=ASYNC_MASTER
+2019-03-05 23:35:38 INFO main - flushDiskType=ASYNC_FLUSH
+2019-03-05 23:35:38 INFO main - syncFlushTimeout=5000
+2019-03-05 23:35:38 INFO main - messageDelayLevel=1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h
+2019-03-05 23:35:38 INFO main - flushDelayOffsetInterval=10000
+2019-03-05 23:35:38 INFO main - cleanFileForciblyEnable=true
+2019-03-05 23:35:38 INFO main - warmMapedFileEnable=false
+2019-03-05 23:35:38 INFO main - offsetCheckInSlave=false
+2019-03-05 23:35:38 INFO main - debugLockEnable=false
+2019-03-05 23:35:38 INFO main - duplicationEnable=false
+2019-03-05 23:35:38 INFO main - diskFallRecorded=true
+2019-03-05 23:35:38 INFO main - osPageCacheBusyTimeOutMills=1000
+2019-03-05 23:35:38 INFO main - defaultQueryMaxNum=32
+2019-03-05 23:35:38 INFO main - transientStorePoolEnable=false
+2019-03-05 23:35:38 INFO main - transientStorePoolSize=5
+2019-03-05 23:35:38 INFO main - fastFailIfNoBufferInStorePool=false
+2019-03-05 23:35:39 INFO main - load exist local topic, TopicConfig [topicName=RMQ_SYS_TRANS_HALF_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2019-03-05 23:35:39 INFO main - load exist local topic, TopicConfig [topicName=BenchmarkTest, readQueueNums=1024, writeQueueNums=1024, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2019-03-05 23:35:39 INFO main - load exist local topic, TopicConfig [topicName=OFFSET_MOVED_EVENT, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2019-03-05 23:35:39 INFO main - load exist local topic, TopicConfig [topicName=TBW102, readQueueNums=8, writeQueueNums=8, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2019-03-05 23:35:39 INFO main - load exist local topic, TopicConfig [topicName=e46b0b9bebe4, readQueueNums=1, writeQueueNums=1, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2019-03-05 23:35:39 INFO main - load exist local topic, TopicConfig [topicName=SELF_TEST_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2019-03-05 23:35:39 INFO main - load exist local topic, TopicConfig [topicName=DefaultCluster, readQueueNums=16, writeQueueNums=16, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2019-03-05 23:35:39 INFO main - load /root/store/config/topics.json OK
+2019-03-05 23:35:39 INFO main - load /root/store/config/consumerOffset.json OK
+2019-03-05 23:35:39 INFO main - load /root/store/config/consumerFilter.json OK
+2019-03-05 23:35:39 INFO main - load /root/store/config/delayOffset.json OK
+2019-03-05 23:35:40 INFO main - Set user specified name server address: namesrv:9876
+2019-03-05 23:35:40 WARN main - Load default transaction message hook service: TransactionalMessageServiceImpl
+2019-03-05 23:35:40 WARN main - Load default discard message hook service: DefaultTransactionalMessageCheckListener
+2019-03-05 23:35:40 INFO main - The broker dose not enable acl
+2019-03-05 23:35:40 INFO FileWatchService - FileWatchService service started
+2019-03-05 23:35:40 INFO PullRequestHoldService - PullRequestHoldService service started
+2019-03-05 23:35:40 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2019-03-05 23:35:40 INFO main - Start transaction service!
+2019-03-05 23:35:40 INFO main - The broker[6190a217c10a, 172.18.0.3:10911] boot success. serializeType=JSON and name server is namesrv:9876
+2019-03-05 23:35:50 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:35:50 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:35:51 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2019-03-05 23:36:20 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2019-03-05 23:36:50 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:36:50 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:36:50 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2019-03-05 23:37:20 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2019-03-05 23:37:50 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:37:50 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:37:50 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2019-03-05 23:38:20 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2019-03-05 23:38:50 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:38:50 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:38:50 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2019-03-05 23:39:20 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2019-03-05 23:39:50 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:39:50 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:39:50 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2019-03-05 23:40:20 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2019-03-05 23:40:53 INFO main - rocketmqHome=/opt/rocketmq-4.4.0
+2019-03-05 23:40:53 INFO main - namesrvAddr=namesrv:9876
+2019-03-05 23:40:53 INFO main - brokerIP1=172.19.0.3
+2019-03-05 23:40:53 INFO main - brokerIP2=172.19.0.3
+2019-03-05 23:40:53 INFO main - brokerName=f9b091a039a9
+2019-03-05 23:40:53 INFO main - brokerClusterName=DefaultCluster
+2019-03-05 23:40:53 INFO main - brokerId=0
+2019-03-05 23:40:53 INFO main - brokerPermission=6
+2019-03-05 23:40:53 INFO main - defaultTopicQueueNums=8
+2019-03-05 23:40:53 INFO main - autoCreateTopicEnable=true
+2019-03-05 23:40:53 INFO main - clusterTopicEnable=true
+2019-03-05 23:40:53 INFO main - brokerTopicEnable=true
+2019-03-05 23:40:53 INFO main - autoCreateSubscriptionGroup=true
+2019-03-05 23:40:53 INFO main - messageStorePlugIn=
+2019-03-05 23:40:53 INFO main - msgTraceTopicName=RMQ_SYS_TRACE_TOPIC
+2019-03-05 23:40:53 INFO main - traceTopicEnable=false
+2019-03-05 23:40:53 INFO main - sendMessageThreadPoolNums=1
+2019-03-05 23:40:53 INFO main - pullMessageThreadPoolNums=20
+2019-03-05 23:40:53 INFO main - queryMessageThreadPoolNums=10
+2019-03-05 23:40:53 INFO main - adminBrokerThreadPoolNums=16
+2019-03-05 23:40:53 INFO main - clientManageThreadPoolNums=32
+2019-03-05 23:40:53 INFO main - consumerManageThreadPoolNums=32
+2019-03-05 23:40:53 INFO main - heartbeatThreadPoolNums=2
+2019-03-05 23:40:53 INFO main - endTransactionThreadPoolNums=12
+2019-03-05 23:40:53 INFO main - flushConsumerOffsetInterval=5000
+2019-03-05 23:40:53 INFO main - flushConsumerOffsetHistoryInterval=60000
+2019-03-05 23:40:53 INFO main - rejectTransactionMessage=false
+2019-03-05 23:40:53 INFO main - fetchNamesrvAddrByAddressServer=false
+2019-03-05 23:40:53 INFO main - sendThreadPoolQueueCapacity=10000
+2019-03-05 23:40:53 INFO main - pullThreadPoolQueueCapacity=100000
+2019-03-05 23:40:53 INFO main - queryThreadPoolQueueCapacity=20000
+2019-03-05 23:40:53 INFO main - clientManagerThreadPoolQueueCapacity=1000000
+2019-03-05 23:40:53 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
+2019-03-05 23:40:53 INFO main - heartbeatThreadPoolQueueCapacity=50000
+2019-03-05 23:40:53 INFO main - endTransactionPoolQueueCapacity=100000
+2019-03-05 23:40:53 INFO main - filterServerNums=0
+2019-03-05 23:40:53 INFO main - longPollingEnable=true
+2019-03-05 23:40:53 INFO main - shortPollingTimeMills=1000
+2019-03-05 23:40:53 INFO main - notifyConsumerIdsChangedEnable=true
+2019-03-05 23:40:53 INFO main - highSpeedMode=false
+2019-03-05 23:40:53 INFO main - commercialEnable=true
+2019-03-05 23:40:53 INFO main - commercialTimerCount=1
+2019-03-05 23:40:53 INFO main - commercialTransCount=1
+2019-03-05 23:40:53 INFO main - commercialBigCount=1
+2019-03-05 23:40:53 INFO main - commercialBaseCount=1
+2019-03-05 23:40:53 INFO main - transferMsgByHeap=true
+2019-03-05 23:40:53 INFO main - maxDelayTime=40
+2019-03-05 23:40:53 INFO main - regionId=DefaultRegion
+2019-03-05 23:40:53 INFO main - registerBrokerTimeoutMills=6000
+2019-03-05 23:40:53 INFO main - slaveReadEnable=false
+2019-03-05 23:40:53 INFO main - disableConsumeIfConsumerReadSlowly=false
+2019-03-05 23:40:53 INFO main - consumerFallbehindThreshold=17179869184
+2019-03-05 23:40:53 INFO main - brokerFastFailureEnable=true
+2019-03-05 23:40:53 INFO main - waitTimeMillsInSendQueue=200
+2019-03-05 23:40:53 INFO main - waitTimeMillsInPullQueue=5000
+2019-03-05 23:40:53 INFO main - waitTimeMillsInHeartbeatQueue=31000
+2019-03-05 23:40:53 INFO main - waitTimeMillsInTransactionQueue=3000
+2019-03-05 23:40:53 INFO main - startAcceptSendRequestTimeStamp=0
+2019-03-05 23:40:53 INFO main - traceOn=true
+2019-03-05 23:40:53 INFO main - enableCalcFilterBitMap=false
+2019-03-05 23:40:53 INFO main - expectConsumerNumUseFilter=32
+2019-03-05 23:40:53 INFO main - maxErrorRateOfBloomFilter=20
+2019-03-05 23:40:53 INFO main - filterDataCleanTimeSpan=86400000
+2019-03-05 23:40:53 INFO main - filterSupportRetry=false
+2019-03-05 23:40:53 INFO main - enablePropertyFilter=false
+2019-03-05 23:40:53 INFO main - compressedRegister=false
+2019-03-05 23:40:53 INFO main - forceRegister=true
+2019-03-05 23:40:53 INFO main - registerNameServerPeriod=30000
+2019-03-05 23:40:53 INFO main - transactionTimeOut=6000
+2019-03-05 23:40:53 INFO main - transactionCheckMax=15
+2019-03-05 23:40:53 INFO main - transactionCheckInterval=60000
+2019-03-05 23:40:53 INFO main - aclEnable=false
+2019-03-05 23:40:53 INFO main - listenPort=10911
+2019-03-05 23:40:53 INFO main - serverWorkerThreads=8
+2019-03-05 23:40:53 INFO main - serverCallbackExecutorThreads=0
+2019-03-05 23:40:53 INFO main - serverSelectorThreads=3
+2019-03-05 23:40:53 INFO main - serverOnewaySemaphoreValue=256
+2019-03-05 23:40:53 INFO main - serverAsyncSemaphoreValue=64
+2019-03-05 23:40:53 INFO main - serverChannelMaxIdleTimeSeconds=120
+2019-03-05 23:40:53 INFO main - serverSocketSndBufSize=131072
+2019-03-05 23:40:53 INFO main - serverSocketRcvBufSize=131072
+2019-03-05 23:40:53 INFO main - serverPooledByteBufAllocatorEnable=true
+2019-03-05 23:40:53 INFO main - useEpollNativeSelector=false
+2019-03-05 23:40:53 INFO main - clientWorkerThreads=4
+2019-03-05 23:40:53 INFO main - clientCallbackExecutorThreads=2
+2019-03-05 23:40:53 INFO main - clientOnewaySemaphoreValue=65535
+2019-03-05 23:40:53 INFO main - clientAsyncSemaphoreValue=65535
+2019-03-05 23:40:53 INFO main - connectTimeoutMillis=3000
+2019-03-05 23:40:53 INFO main - channelNotActiveInterval=60000
+2019-03-05 23:40:53 INFO main - clientChannelMaxIdleTimeSeconds=120
+2019-03-05 23:40:53 INFO main - clientSocketSndBufSize=131072
+2019-03-05 23:40:53 INFO main - clientSocketRcvBufSize=131072
+2019-03-05 23:40:53 INFO main - clientPooledByteBufAllocatorEnable=false
+2019-03-05 23:40:53 INFO main - clientCloseSocketIfTimeout=false
+2019-03-05 23:40:53 INFO main - useTLS=false
+2019-03-05 23:40:53 INFO main - storePathRootDir=/root/store
+2019-03-05 23:40:53 INFO main - storePathCommitLog=/root/store/commitlog
+2019-03-05 23:40:53 INFO main - mapedFileSizeCommitLog=1073741824
+2019-03-05 23:40:53 INFO main - mapedFileSizeConsumeQueue=6000000
+2019-03-05 23:40:53 INFO main - enableConsumeQueueExt=false
+2019-03-05 23:40:53 INFO main - mappedFileSizeConsumeQueueExt=50331648
+2019-03-05 23:40:53 INFO main - bitMapLengthConsumeQueueExt=64
+2019-03-05 23:40:53 INFO main - flushIntervalCommitLog=500
+2019-03-05 23:40:53 INFO main - commitIntervalCommitLog=200
+2019-03-05 23:40:53 INFO main - useReentrantLockWhenPutMessage=false
+2019-03-05 23:40:53 INFO main - flushCommitLogTimed=false
+2019-03-05 23:40:53 INFO main - flushIntervalConsumeQueue=1000
+2019-03-05 23:40:53 INFO main - cleanResourceInterval=10000
+2019-03-05 23:40:53 INFO main - deleteCommitLogFilesInterval=100
+2019-03-05 23:40:53 INFO main - deleteConsumeQueueFilesInterval=100
+2019-03-05 23:40:53 INFO main - destroyMapedFileIntervalForcibly=120000
+2019-03-05 23:40:53 INFO main - redeleteHangedFileInterval=120000
+2019-03-05 23:40:53 INFO main - deleteWhen=04
+2019-03-05 23:40:53 INFO main - diskMaxUsedSpaceRatio=75
+2019-03-05 23:40:53 INFO main - fileReservedTime=72
+2019-03-05 23:40:53 INFO main - putMsgIndexHightWater=600000
+2019-03-05 23:40:53 INFO main - maxMessageSize=4194304
+2019-03-05 23:40:53 INFO main - checkCRCOnRecover=true
+2019-03-05 23:40:53 INFO main - flushCommitLogLeastPages=4
+2019-03-05 23:40:53 INFO main - commitCommitLogLeastPages=4
+2019-03-05 23:40:53 INFO main - flushLeastPagesWhenWarmMapedFile=4096
+2019-03-05 23:40:53 INFO main - flushConsumeQueueLeastPages=2
+2019-03-05 23:40:53 INFO main - flushCommitLogThoroughInterval=10000
+2019-03-05 23:40:53 INFO main - commitCommitLogThoroughInterval=200
+2019-03-05 23:40:53 INFO main - flushConsumeQueueThoroughInterval=60000
+2019-03-05 23:40:53 INFO main - maxTransferBytesOnMessageInMemory=262144
+2019-03-05 23:40:53 INFO main - maxTransferCountOnMessageInMemory=32
+2019-03-05 23:40:53 INFO main - maxTransferBytesOnMessageInDisk=65536
+2019-03-05 23:40:53 INFO main - maxTransferCountOnMessageInDisk=8
+2019-03-05 23:40:53 INFO main - accessMessageInMemoryMaxRatio=40
+2019-03-05 23:40:53 INFO main - messageIndexEnable=true
+2019-03-05 23:40:53 INFO main - maxHashSlotNum=5000000
+2019-03-05 23:40:53 INFO main - maxIndexNum=20000000
+2019-03-05 23:40:53 INFO main - maxMsgsNumBatch=64
+2019-03-05 23:40:53 INFO main - messageIndexSafe=false
+2019-03-05 23:40:53 INFO main - haListenPort=10912
+2019-03-05 23:40:53 INFO main - haSendHeartbeatInterval=5000
+2019-03-05 23:40:53 INFO main - haHousekeepingInterval=20000
+2019-03-05 23:40:53 INFO main - haTransferBatchSize=32768
+2019-03-05 23:40:53 INFO main - haMasterAddress=
+2019-03-05 23:40:53 INFO main - haSlaveFallbehindMax=268435456
+2019-03-05 23:40:53 INFO main - brokerRole=ASYNC_MASTER
+2019-03-05 23:40:53 INFO main - flushDiskType=ASYNC_FLUSH
+2019-03-05 23:40:53 INFO main - syncFlushTimeout=5000
+2019-03-05 23:40:53 INFO main - messageDelayLevel=1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h
+2019-03-05 23:40:53 INFO main - flushDelayOffsetInterval=10000
+2019-03-05 23:40:53 INFO main - cleanFileForciblyEnable=true
+2019-03-05 23:40:53 INFO main - warmMapedFileEnable=false
+2019-03-05 23:40:53 INFO main - offsetCheckInSlave=false
+2019-03-05 23:40:53 INFO main - debugLockEnable=false
+2019-03-05 23:40:53 INFO main - duplicationEnable=false
+2019-03-05 23:40:53 INFO main - diskFallRecorded=true
+2019-03-05 23:40:53 INFO main - osPageCacheBusyTimeOutMills=1000
+2019-03-05 23:40:53 INFO main - defaultQueryMaxNum=32
+2019-03-05 23:40:53 INFO main - transientStorePoolEnable=false
+2019-03-05 23:40:53 INFO main - transientStorePoolSize=5
+2019-03-05 23:40:53 INFO main - fastFailIfNoBufferInStorePool=false
+2019-03-05 23:40:54 INFO main - load exist local topic, TopicConfig [topicName=RMQ_SYS_TRANS_HALF_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2019-03-05 23:40:54 INFO main - load exist local topic, TopicConfig [topicName=BenchmarkTest, readQueueNums=1024, writeQueueNums=1024, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2019-03-05 23:40:54 INFO main - load exist local topic, TopicConfig [topicName=OFFSET_MOVED_EVENT, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2019-03-05 23:40:54 INFO main - load exist local topic, TopicConfig [topicName=TBW102, readQueueNums=8, writeQueueNums=8, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2019-03-05 23:40:54 INFO main - load exist local topic, TopicConfig [topicName=e46b0b9bebe4, readQueueNums=1, writeQueueNums=1, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2019-03-05 23:40:54 INFO main - load exist local topic, TopicConfig [topicName=SELF_TEST_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2019-03-05 23:40:54 INFO main - load exist local topic, TopicConfig [topicName=DefaultCluster, readQueueNums=16, writeQueueNums=16, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2019-03-05 23:40:54 INFO main - load /root/store/config/topics.json OK
+2019-03-05 23:40:54 INFO main - load /root/store/config/consumerOffset.json OK
+2019-03-05 23:40:54 INFO main - load /root/store/config/consumerFilter.json OK
+2019-03-05 23:40:54 INFO main - load /root/store/config/delayOffset.json OK
+2019-03-05 23:40:55 INFO main - Set user specified name server address: namesrv:9876
+2019-03-05 23:40:55 WARN main - Load default transaction message hook service: TransactionalMessageServiceImpl
+2019-03-05 23:40:55 WARN main - Load default discard message hook service: DefaultTransactionalMessageCheckListener
+2019-03-05 23:40:55 INFO main - The broker dose not enable acl
+2019-03-05 23:40:55 INFO FileWatchService - FileWatchService service started
+2019-03-05 23:40:55 INFO PullRequestHoldService - PullRequestHoldService service started
+2019-03-05 23:40:55 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2019-03-05 23:40:55 INFO main - Start transaction service!
+2019-03-05 23:40:55 INFO main - The broker[f9b091a039a9, 172.19.0.3:10911] boot success. serializeType=JSON and name server is namesrv:9876
+2019-03-05 23:41:05 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:41:05 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:41:05 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2019-03-05 23:41:35 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2019-03-05 23:42:05 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:42:05 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:42:05 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2019-03-05 23:42:35 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
+2019-03-05 23:43:04 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:43:04 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:43:05 INFO brokerOutApi_thread_2 - register broker to name server namesrv:9876 OK
+2019-03-05 23:43:35 INFO brokerOutApi_thread_3 - register broker to name server namesrv:9876 OK
+2019-03-05 23:44:04 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2019-03-05 23:44:04 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2019-03-05 23:44:05 INFO brokerOutApi_thread_4 - register broker to name server namesrv:9876 OK
+2019-03-05 23:44:35 INFO brokerOutApi_thread_1 - register broker to name server namesrv:9876 OK
