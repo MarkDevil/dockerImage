@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+  
+  redis-server:
+    image: redis:5.0
+    container_name: redis-server
+    hostname: redis-server
+    # restart: always
+    network_mode: "bridge"
+    environment:
+      - JAVA_OPTS=-Duser.timezone=Asia/Shanghai
+    ports:
+      - 6379:6379
+    mem_limit: 256m
+    
