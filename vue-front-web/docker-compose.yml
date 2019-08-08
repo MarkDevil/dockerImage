@@ -1,0 +1,16 @@
+version: '2'
+
+services:  
+  mynginx:
+    image: nginx:1.16.0
+    container_name: mynginx
+    ports:
+      - "80:80"
+    environment:
+      - NGINX_HOST=mark-nginx
+      - NGINX_PORT=80
+    volumes:
+      - $PWD/conf/nginx.conf:/etc/nginx/nginx.conf
+      - /Users/mark/gitworkspace/fin-web/dist:/usr/share/nginx/html
+    mem_limit: 256m
+  
