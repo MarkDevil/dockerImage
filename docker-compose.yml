@@ -20,8 +20,6 @@ services:
     ports:
       - 8081:8080
     # restart: always
-    extra_hosts:
-      - localhost:192.168.51.161
     mem_limit: 1g
   
   mongo:
