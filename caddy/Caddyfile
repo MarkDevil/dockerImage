@@ -1,0 +1,7 @@
+localhost
+gzip
+log ../access.log
+
+/ {
+    root /srv
+}

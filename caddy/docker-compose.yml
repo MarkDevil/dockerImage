@@ -1,0 +1,18 @@
+version: "2"
+
+services:
+  caddy-proxy:
+    image: abiosoft/caddy:1.0.1
+    container_name: caddy-proxy
+    network_mode: "bridge"
+    restart: always
+    environment:
+      - ACME_AGREE=true
+    ports:
+      - "80:80"
+      - "443:443"
+      - "2015:2015"
+    volumes:
+      - ./Caddyfile:/etc/Caddyfile
+      - /Users/mark/dockerMapPath/nginx/www:/srv
+    mem_limit: 512m

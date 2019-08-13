@@ -1,0 +1,23 @@
+version: '2'
+# docker volume create portainer_data
+# docker run -d -p 9000:9000 --name portainer 
+#--restart always 
+#-v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
+services:
+  portainer:
+    image: portainer/portainer:1.22.0
+    container_name: portainer
+    restart: always
+    volumes:
+       - ./data:/data
+       - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - JAVA_OPTS=-Duser.timezone=Asia/Shanghai
+    dns:
+      - 8.8.8.8
+    ports:
+      - "8000:8000"
+      - "9000:9000" 
+
+
+   
