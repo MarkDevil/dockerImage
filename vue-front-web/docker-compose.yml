@@ -19,7 +19,5 @@ services:
     image: fin-autotest:lastest
     container_name: fin-autotest
     restart: always
-    ports:
-      - "9098:8080"
     mem_limit: 2g
   
