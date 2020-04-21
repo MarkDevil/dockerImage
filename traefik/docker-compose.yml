@@ -3,23 +3,26 @@ version: '2'
 services:
   
   traefik:
-    container_name: traefik
+    container_name: traefik2
     image: traefik:v2.0
-    restart: always
     environment:
       - JAVA_OPTS=-Duser.timezone=Asia/Shanghai
     volumes:
-      - ./traefik.toml:/etc/traefik/traefik.toml
-      - /var/run/docker.sock:/var/run/docker.sock
+      - ./traefik.yml:/etc/traefik/traefik.yml
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    command:
+      - "--log.level=DEBUG"
+      - "--api.insecure=true"
+      - "--entrypoints.web.address=:80"
     ports:
       - 80:80
       - 8081:8080
     mem_limit: 512m
     
   whoami:
-    container_name: whoami
+    container_name: test
     image: containous/whoami
     labels:
-      - "traefik.http.routers.whoami.rule=Host(`whoami.docker`)"
+      - "traefik.http.routers.whoami.rule=Host(`docker.localhost`)"
     mem_limit: 512m
   
